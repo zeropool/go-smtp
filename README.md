@@ -14,6 +14,7 @@ An ESMTP client and server library written in Go.
 * Support for SMTP [AUTH](https://tools.ietf.org/html/rfc4954) and [PIPELINING](https://tools.ietf.org/html/rfc2920)
 * UTF-8 support for subject and message
 * [LMTP](https://tools.ietf.org/html/rfc2033) support
+* [tset](#Server测试)
 
 ## Usage
 
@@ -50,7 +51,7 @@ func main() {
 
 If you need more control, you can use `Client` instead.
 
-### Server
+### Server测试
 
 ```go
 package main
